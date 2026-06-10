@@ -1,71 +1,75 @@
 # 👨‍💼 HR Analytics Dashboard
 
+## 📊 Dashboard Preview
+
+![HR Analytics Dashboard](./hr_dashboard.png)
+
+---
+
 ## 📌 Project Overview
 
-The HR Analytics Dashboard is a Business Intelligence solution developed using **Power BI**, **SQL**, and HR workforce data to analyze employee attrition, workforce demographics, job satisfaction, and organizational performance.
+The HR Analytics Dashboard is a Business Intelligence solution developed using **Power BI**, **SQL**, and HR workforce data to analyze employee attrition, workforce demographics, employee satisfaction, and retention trends.
 
-This dashboard enables HR teams and business leaders to monitor employee retention trends, identify workforce challenges, and make data-driven decisions to improve employee engagement and organizational effectiveness.
-
----
-
-# 🎯 Business Objective
-
-Employee attrition directly impacts productivity, recruitment costs, and business growth.
-
-This project helps organizations:
-
-* Monitor employee turnover.
-* Analyze attrition patterns.
-* Understand workforce demographics.
-* Evaluate employee satisfaction.
-* Support strategic HR planning.
-* Improve employee retention initiatives.
+The dashboard provides HR managers and business leaders with actionable insights to improve workforce planning, employee engagement, and organizational performance.
 
 ---
 
-# 🛠️ Tools & Technologies
+## 🎯 Business Objective
 
-| Category              | Technology            |
-| --------------------- | --------------------- |
-| Business Intelligence | Power BI              |
-| Database Querying     | SQL                   |
-| Data Processing       | Power Query           |
-| Data Source           | HR Dataset            |
-| Reporting             | Interactive Dashboard |
+Employee attrition is one of the most critical challenges for organizations. Understanding workforce behavior helps companies reduce turnover, improve employee satisfaction, and optimize human resource strategies.
 
----
+This dashboard enables organizations to:
 
-# 📊 Dashboard KPIs
-
-| Metric            | Value    |
-| ----------------- | -------- |
-| Overall Employees | 882      |
-| Active Employees  | 732      |
-| Attrition Count   | 150      |
-| Attrition Rate    | 17.01%   |
-| Average Age       | 37 Years |
+* Monitor employee attrition trends
+* Analyze workforce demographics
+* Identify high-risk employee groups
+* Evaluate job satisfaction across roles
+* Improve retention strategies
+* Support data-driven HR decisions
 
 ---
 
-# 📈 Dashboard Features
+## 🛠️ Tools & Technologies
 
-## 1️⃣ Workforce Overview
+| Category              | Technology          |
+| --------------------- | ------------------- |
+| Business Intelligence | Power BI            |
+| Database Querying     | SQL                 |
+| Data Processing       | Power Query         |
+| Data Source           | HR Employee Dataset |
+| Data Visualization    | Power BI Desktop    |
+
+---
+
+## 📊 Key Performance Indicators (KPIs)
+
+| KPI                  | Value    |
+| -------------------- | -------- |
+| Overall Employees    | 882      |
+| Active Employees     | 732      |
+| Attrition Count      | 150      |
+| Attrition Rate       | 17.01%   |
+| Average Employee Age | 37 Years |
+
+---
+
+## 📈 Dashboard Features
+
+### 1️⃣ Workforce Overview
 
 Provides a high-level summary of:
 
 * Total Employees
 * Active Employees
-* Employee Attrition
+* Attrition Count
 * Attrition Rate
 * Average Employee Age
 
 ---
 
-## 2️⃣ Department-wise Attrition Analysis
+### 2️⃣ Department-wise Attrition Analysis
 
 Analyze employee turnover across departments:
-
-### Key Findings
 
 | Department             | Attrition |
 | ---------------------- | --------- |
@@ -73,29 +77,27 @@ Analyze employee turnover across departments:
 | Sales                  | 54        |
 | Human Resources        | 6         |
 
-This visualization highlights departments requiring retention focus.
+This helps HR teams identify departments requiring retention initiatives.
 
 ---
 
-## 3️⃣ Employee Age Group Distribution
+### 3️⃣ Employee Age Group Distribution
 
 Workforce segmentation by age:
 
-| Age Group | Employees |
-| --------- | --------- |
-| Under 25  | 60        |
-| 25 - 34   | 337       |
-| 35 - 44   | 309       |
-| 45 - 54   | 132       |
-| Over 55   | 44        |
+* Under 25
+* 25 – 34
+* 35 – 44
+* 45 – 54
+* Over 55
 
-This helps organizations understand workforce composition and succession planning needs.
+This insight supports workforce planning and succession management.
 
 ---
 
-## 4️⃣ Job Satisfaction Analysis
+### 4️⃣ Job Satisfaction Analysis
 
-Employee satisfaction ratings analyzed across roles:
+Evaluate employee satisfaction levels across job roles:
 
 * Sales Executive
 * Research Scientist
@@ -107,72 +109,64 @@ Employee satisfaction ratings analyzed across roles:
 * Sales Representative
 * Human Resources
 
-This analysis helps identify areas requiring employee engagement improvements.
+Job satisfaction ratings are analyzed on a scale of 1–4.
 
 ---
 
-## 5️⃣ Education Field-wise Attrition
+### 5️⃣ Education Field-wise Attrition
 
-Attrition trends analyzed across:
+Attrition analysis by educational background:
 
 * Life Sciences
 * Medical
 * Technical Degree
 * Marketing
 * Human Resources
-* Other Fields
+* Other
 
-This helps HR teams identify workforce segments with higher turnover.
+This helps identify workforce segments with higher turnover rates.
 
 ---
 
-## 6️⃣ Attrition by Gender & Age Group
+### 6️⃣ Attrition by Gender & Age Group
 
-Employee attrition analyzed based on:
+Analyze attrition trends based on:
 
 * Gender
 * Age Group
 * Workforce Demographics
 
-This supports targeted retention strategies.
+This enables targeted retention strategies.
 
 ---
 
-# 📊 Key Business Insights
-
-### Workforce Analysis
-
-* Overall attrition rate is 17.01%.
-* Majority of employees belong to the 25–44 age group.
-
-### Department Insights
-
-* Research & Development experiences the highest employee attrition.
-* HR department has the lowest attrition count.
+## 📊 Key Insights
 
 ### Employee Retention
 
-* Attrition is concentrated among younger and mid-career employees.
-* Education background influences turnover trends.
+* Overall Attrition Rate is 17.01%.
+* Majority of attrition occurs within the Research & Development department.
 
-### Employee Engagement
+### Workforce Demographics
 
-* Job satisfaction varies significantly across different job roles.
+* Employees aged 25–44 represent the largest workforce segment.
+* Younger employees show higher turnover tendencies.
+
+### Education Analysis
+
+* Life Sciences and Medical backgrounds contribute the highest attrition counts.
+
+### Employee Satisfaction
+
+* Job satisfaction varies significantly across job roles.
+* Certain operational positions demonstrate lower satisfaction scores.
 
 ---
 
-# 📸 Dashboard Preview
-
-## HR Analytics Dashboard
-
-![HR Analytics Dashboard](./hr_dashboard.png)
-
----
-
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
-HR-Analytics-Dashboard-using-Power-BI-main/
+HR-Analytics-Dashboard/
 │
 ├── HR Analytics dashboard.pbix
 ├── HR Analytics dashboard.pdf
@@ -185,13 +179,13 @@ HR-Analytics-Dashboard-using-Power-BI-main/
 
 ---
 
-# 🚀 How to Use
+## 🚀 How to Use
 
-### Prerequisites
+### Requirements
 
 * Power BI Desktop
-* SQL Database (Optional)
 * HR Dataset
+* SQL Server (Optional)
 
 ### Steps
 
@@ -207,61 +201,61 @@ git clone https://github.com/Ananthsairam/hr-analytics-dashboard.git
 HR Analytics dashboard.pbix
 ```
 
-3. Refresh data if required.
+3. Refresh the dataset if required.
 
-4. Explore the dashboard using interactive filters and visualizations.
+4. Explore interactive dashboard visualizations.
 
 ---
 
-# 📚 Skills Demonstrated
+## 📚 Skills Demonstrated
 
 * HR Analytics
 * Data Analytics
 * Business Intelligence
 * SQL Querying
 * Data Visualization
-* Dashboard Development
-* KPI Reporting
+* Power BI Dashboard Development
 * Workforce Analysis
+* KPI Reporting
 * Employee Attrition Analysis
 
 ---
 
-# 💼 Business Value
+## 💼 Business Value
 
 This dashboard enables organizations to:
-
-✅ Monitor workforce health
 
 ✅ Reduce employee turnover
 
 ✅ Improve retention strategies
 
+✅ Monitor workforce performance
+
+✅ Support strategic HR decisions
+
+✅ Improve employee satisfaction
+
 ✅ Enhance workforce planning
-
-✅ Increase employee engagement
-
-✅ Support HR decision-making
 
 ---
 
-# 🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 * Predictive Employee Attrition Modeling
-* Employee Performance Analytics
-* Diversity & Inclusion Dashboard
+* Employee Performance Dashboard
 * Workforce Forecasting
+* Diversity & Inclusion Analytics
 * Real-Time HR Monitoring
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 ### Ananthsairam Goud
 
 Aspiring Data Analyst | Business Intelligence Enthusiast
 
-### Technical Skills
+**Technical Skills**
 
 * SQL
 * Power BI
@@ -274,7 +268,7 @@ GitHub: https://github.com/Ananthsairam
 
 ---
 
-# ⭐ Project Status
+## ⭐ Project Status
 
 ✅ Completed
 
